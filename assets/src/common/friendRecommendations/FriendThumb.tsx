@@ -12,7 +12,7 @@ const friends = [Brenda, Erin, Jacob, Jeff, Jennifer, John, Sarah];
 
 interface FriendThumbProps {}
 
-export lass FriendThumb extends React.Component<FriendThumbProps> {
+export class FriendThumb extends React.Component<FriendThumbProps> {
   render() {
     const randomFriend = friends[Math.floor(Math.random() * friends.length)];
     return (
