@@ -1,3 +1,5 @@
+// Jonathan Eddy 1508331
+
 export default {
   apiGateway: {
     REGION: "us-east-1",
