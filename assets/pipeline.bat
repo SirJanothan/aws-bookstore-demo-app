@@ -11,6 +11,12 @@ EXIT /b
 )
 ECHO comment test success
 
+CALL npm test
+IF %ERRORLEVEL% NEQ 0 (
+EXIT /b
+)
+
+
 ECHO Installing packages
 call npm install
 
